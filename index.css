@@ -1,0 +1,18 @@
+.container {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cats-container {
+  display: flex;
+  border: 1px solid blue;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cats-container img {
+  border: 1px solid green;
+  padding: 5px;
+}
